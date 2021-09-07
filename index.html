@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Glória Del'Art Co Living</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="preload"
+      as="font"
+      type="font/woff2"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <meta name="description" content="UMA NOVA FORMA DE MORAR E INVESTIR!" />
+    <meta
+      name="keywords"
+      content="Rio de Janeiro, Glória, Investimento, Imóveis, Lançamentos"
+    />
+
+    <link rel="shortcut icon" href="assets/img/logo.svg" type="image/x-icon" />
+
+    <script type="d11a3bb213be6551f15b98bb-text/javascript">
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-NPJWS47');
+    </script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css"
+    />
+
+    <style>
+      header {
+        height: 80px;
+        background: #222;
+      }
+      header a img {
+        height: 70px !important;
+      }
+      header .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      .menu {
+        display: flex;
+        justify-content: space-between;
+      }
+      .menu a {
+        color: #fff;
+        padding: 5px 10px;
+        border-left: 3px solid transparent;
+        transition: all 0.5s;
+      }
+      .menu a:hover {
+        border-color: #ff502b;
+      }
+      .banner {
+        background: url(assets/img/bg.webp) no-repeat;
+        width: 100%;
+        background-size: cover;
+        height: 100vh;
+      }
+      .banner .container {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      h1 {
+        font-size: 60px;
+        text-align: center;
+        color: #fff;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+      }
+      .banner p {
+        padding: 15px;
+        box-shadow: 15px 15px 60px rgb(0, 0, 0, 0.5);
+        color: #fff;
+        font-size: 18px;
+        opacity: 0;
+        visibility: hidden;
+        animation: fade 0.8s 2s forwards;
+      }
+      .banner .btn {
+        opacity: 0;
+        visibility: hidden;
+        animation: fade 0.5s 1s forwards;
+      }
+      @keyframes fade {
+        0% {
+          opacity: 0;
+          visibility: hidden;
+        }
+        100% {
+          opacity: 1;
+          visibility: visible;
+        }
+      }
+    </style>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <a href="#"><img src="assets/img/logo.svg" alt="logomarca" /></a>
+
+        <nav>
+        <button class="btn_mobile">
+          <span class="hamburgger"></span>
+        </button>
+          <ul class="menu">
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#bairro">O bairro</a></li>
+            <li><a href="#contato">Contato</a></li>
+            <li><a href="#plantas">Plantas</a></li>
+            <li><a href="#unidades">Unidades</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="banner">
+      <div class="container">
+        <h1>Uma nova forma de morar e investir!</h1>
+
+        <a
+          href="https://api.whatsapp.com/send?phone=552130839806&text=GloriaDelArte"
+          class="btn"
+          >Garantir meu imóvel agora!</a
+        >
+
+        <p>
+          Adquira seu imóvel em um dos pontos turísticos mais visitados do
+          mundo. Venha para o <strong>bairro da Glória!</strong>
+        </p>
+      </div>
+    </section>
+
+    <section class="sobre mt container" id="sobre">
+      <img
+        data-src="assets/img/bairro.webp"
+        class="img"
+        alt="bairro"
+        data-aos="fade-down-right"
+      />
+      <div>
+        <h2 class="titulo">
+          Uma <span>obra de arte</span> emoldurada pelo Rio de Janeiro
+        </h2>
+        <p>
+          O bairro da Glória é um dos patrimônios do Rio de Janeiro, sendo o
+          local onde existe a maior quantidade de patrimônios tombados por metro
+          quadrado de todo Estado
+        </p>
+
+        <a
+          href="https://api.whatsapp.com/send?phone=552130839806&text=GloriaDelArte"
+          class="btn"
+          >quero mais informações pelo whatsapp</a
+        >
+      </div>
+    </section>
+
+    <div class="infos">
+      <ul>
+        <li>Sauna</li>
+        <li>Lavanderia</li>
+        <li>Lounge descoberto</li>
+        <li>Hidromassagem</li>
+        <li>Wine Bar</li>
+        <li>Academia</li>
+        <li>Quiosque</li>
+      </ul>
+    </div>
+
+    <section class="galeria">
+      <div class="carousel">
+        <div id="image-slider" class="splide">
+          <div class="splide__track">
+            <ul class="splide__list">
+              <li class="splide__slide">
+                <img
+                  src="assets/img/galeria/gloria-delart-imagenspage-0009.webp"
+                  alt="local"
+                />
+              </li>
+              <li class="splide__slide">
+                <img
+                  src="assets/img/galeria/gloria-delart-imagenspage-0010.webp"
+                  alt="local"
+                />
+              </li>
+              <li class="splide__slide">
+                <img
+                  src="assets/img/galeria/gloria-delart-imagenspage-0011.webp"
+                  alt="local"
+                />
+              </li>
+              <li class="splide__slide">
+                <img
+                  src="assets/img/galeria/gloria-delart-imagenspage-0012.webp"
+                  alt="local"
+                />
+              </li>
+              <li class="splide__slide">
+                <img
+                  src="assets/img/galeria/gloria-delart-imagenspage-0013.webp"
+                  alt="local"
+                />
+              </li>
+              <li class="splide__slide">
+                <img
+                  src="assets/img/galeria/gloria-delart-imagenspage-0014.webp"
+                  alt="local"
+                />
+              </li>
+              <li class="splide__slide">
+                <img
+                  src="assets/img/galeria/gloria-delart-imagenspage-0015.webp"
+                  alt="local"
+                />
+              </li>
+              <li class="splide__slide">
+                <img
+                  src="assets/img/galeria/gloria-delart-imagenspage-0016.webp"
+                  alt="local"
+                />
+              </li>
+              <li class="splide__slide">
+                <img
+                  src="assets/img/galeria/gloria-delart-imagenspage-0017.webp"
+                  alt="local"
+                />
+              </li>
+              <li class="splide__slide">
+                <img
+                  src="assets/img/galeria/gloria-delart-imagenspage-0018.webp"
+                  alt="local"
+                />
+              </li>
+              <li class="splide__slide">
+                <img
+                  src="assets/img/galeria/gloria-delart-imagenspage-0019.webp"
+                  alt="local"
+                />
+              </li>
+              <li class="splide__slide">
+                <img
+                  src="assets/img/galeria/gloria-delart-imagenspage-0020.webp"
+                  alt="local"
+                />
+              </li>
+              <li class="splide__slide">
+                <img
+                  src="assets/img/galeria/gloria-delart-imagenspage-0021.webp"
+                  alt="local"
+                />
+              </li>
+              <li class="splide__slide">
+                <img
+                  src="assets/img/galeria/gloria-delart-imagenspage-0025.webp"
+                  alt="local"
+                />
+              </li>
+              <li class="splide__slide">
+                <img
+                  src="assets/img/galeria/gloria-delart-imagenspage-0027.webp"
+                  alt="local"
+                />
+              </li>
+              <li class="splide__slide">
+                <img
+                  src="assets/img/galeria/gloria-delart-imagenspage-0029.webp"
+                  alt="local"
+                />
+              </li>
+              <li class="splide__slide">
+                <img
+                  src="assets/img/galeria/gloria-delart-imagenspage-0031.webp"
+                  alt="local"
+                />
+              </li>
+              <li class="splide__slide">
+                <img
+                  src="assets/img/galeria/gloria-delart-imagenspage-0034.webp"
+                  alt="local"
+                />
+              </li>
+              <li class="splide__slide">
+                <img
+                  src="assets/img/galeria/gloria-delart-imagenspage-0036.webp"
+                  alt="local"
+                />
+              </li>
+              <li class="splide__slide">
+                <img
+                  src="assets/img/galeria/gloria-delart-imagenspage-0038.webp"
+                  alt="local"
+                />
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bairro container mt" id="bairro">
+      <div>
+        <h2 class="titulo">
+          Uma nova forma de <span>morar</span> e <span>investir</span>
+        </h2>
+
+        <p>
+          Uma ótima opção de moradia e investimento é, sem dúvidas, o
+          <strong>bairro da Glória</strong>. Com uma população superior a 105
+          mil residentes e mais de 400 mil passeates, o Bairro é um dos grandes
+          geradores de renda no Rio de Janeiro.
+        </p>
+
+        <a
+          href="https://api.whatsapp.com/send?phone=552130839806&text=GloriaDelArte"
+          class="btn"
+          >Falara diretamente com o incorporador</a
+        >
+      </div>
+      <img
+        data-src="assets/img/sobrebairro.webp"
+        alt="bairro"
+        data-aos="fade-down-left"
+      />
+    </section>
+
+    <section class="contato mt" id="contato">
+      <div class="container">
+        <h2>
+          Fale diretamente com um incorporador e receba mais detalhes sobre o
+          empreendimento:
+        </h2>
+
+        <a
+          href="https://api.whatsapp.com/send?phone=552130839806&text=GloriaDelArte"
+          class="btn"
+          >Entrar em contato agora</a
+        >
+      </div>
+    </section>
+
+    <section class="plantas mt" id="plantas">
+      <div class="carousel">
+        <div id="image-slider2" class="splide">
+          <div class="splide__track">
+            <ul class="splide__list">
+              <li class="splide__slide">
+                <img
+                  src="assets/img/plantas/gloria-delart-imagenspage-0024.webp"
+                  alt="local"
+                />
+              </li>
+              <li class="splide__slide">
+                <img
+                  src="assets/img/plantas/gloria-delart-imagenspage-0026.webp"
+                  alt="local"
+                />
+              </li>
+              <li class="splide__slide">
+                <img
+                  src="assets/img/plantas/gloria-delart-imagenspage-0028.webp"
+                  alt="local"
+                />
+              </li>
+              <li class="splide__slide">
+                <img
+                  src="assets/img/plantas/gloria-delart-imagenspage-0030.webp"
+                  alt="local"
+                />
+              </li>
+              <li class="splide__slide">
+                <img
+                  src="assets/img/plantas/gloria-delart-imagenspage-0033.webp"
+                  alt="local"
+                />
+              </li>
+              <li class="splide__slide">
+                <img
+                  src="assets/img/plantas/gloria-delart-imagenspage-0035.webp"
+                  alt="local"
+                />
+              </li>
+              <li class="splide__slide">
+                <img
+                  src="assets/img/plantas/gloria-delart-imagenspage-0037.webp"
+                  alt="local"
+                />
+              </li>
+              <li class="splide__slide">
+                <img
+                  src="assets/img/plantas/gloria-delart-imagenspage-0039.webp"
+                  alt="local"
+                />
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mt unidades container" id="unidades">
+      <div class="blocos" data-aos="fade-down-right">
+        <img data-src="assets/img/bloco0.webp" class="img" alt="unidades" />
+        <img data-src="assets/img/bloco1.webp" class="img" alt="unidades" />
+      </div>
+      <div>
+        <h2 class="titulo">Garanta <span>agora</span> o seu imóvel</h2>
+
+        <p>
+          Garanta sua unidade com valores a partir de
+          <span class="preco">R$ 511.830,00</span>
+        </p>
+
+        <a
+          href="https://api.whatsapp.com/send?phone=552130839806&text=GloriaDelArte"
+          class="btn"
+          >Falar com um corretor</a
+        >
+      </div>
+    </section>
+
+    <footer class="mt">
+      <div class="footer_logo">
+        <img data-src="assets/img/logo.svg" alt="logo" />
+      </div>
+      <div class="fr">
+        <div class="info_footer">
+          <h2>Incorporação & desenvolvimento</h2>
+          <img
+            class="img"
+            data-src="assets/img/logo-cevalente-1-topo.webp"
+            alt="cevalente"
+          />
+        </div>
+        <div class="info_footer">
+          <h2>Construtora</h2>
+          <img class="img" data-src="assets/img/atha.webp" alt="atha" />
+        </div>
+      </div>
+    </footer>
+
+    <a
+      href="#"
+      class="gototop"
+      aria-label="Voltar para a home"
+      data-aos="fade-down-left"
+    >
+      <svg
+        width="40"
+        height="40"
+        viewBox="0 0 40 40"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M8.33341 25H15.0001V35H25.0001V25H31.6667L20.0001 11.6667L8.33341 25ZM6.66675 5H33.3334V8.33333H6.66675V5Z"
+          fill="url(#paint0_linear)"
+        />
+        <defs>
+          <linearGradient
+            id="paint0_linear"
+            x1="20.0001"
+            y1="5"
+            x2="20.0001"
+            y2="35"
+            gradientUnits="userSpaceOnUse"
+          >
+            <stop stop-color="#FF502B" />
+            <stop offset="1" stop-color="#FF9000" />
+          </linearGradient>
+        </defs>
+      </svg>
+    </a>
+
+    <script src="assets/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script>
+      function slides() {
+        document.addEventListener("DOMContentLoaded", function () {
+          new Splide("#image-slider", {
+            cover: true,
+            heightRatio: 0.5,
+            autoplay: true,
+            type: "loop",
+            pauseOnHover: false,
+            focus: "center",
+            pauseOnFocus: false,
+          }).mount();
+        });
+      }
+      slides();
+      function slides2() {
+        document.addEventListener("DOMContentLoaded", function () {
+          new Splide("#image-slider2", {
+            cover: true,
+            heightRatio: 0.5,
+            autoplay: true,
+            type: "loop",
+            pauseOnHover: false,
+            focus: "center",
+            pauseOnFocus: false,
+          }).mount();
+        });
+      }
+      slides2();
+    </script>
+  </body>
+</html>
